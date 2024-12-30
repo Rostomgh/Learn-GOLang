@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	mybolean := false
-	fmt.Println(mybolean)
-	// time.Sleep(10 * time.Second)
+	var a bool
+	fmt.Println(a)
+	fmt.Printf("%T", a)
 }

@@ -5,7 +5,12 @@ import (
 )
 
 func main() {
-	var a bool
-	fmt.Println(a)
-	fmt.Printf("%T", a)
+	//data types
+	b:=10
+	
+
+
+	fmt.Println(b)
+	fmt.Printf("%T", b)
+
 }

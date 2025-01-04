@@ -5,12 +5,16 @@ import (
 )
 
 func main() {
-	//data types
-	b:=10
-	
+	// //Learn Const in Go
+	// const Myconst = "hello"
+	// fmt.Print(Myconst)
+	// var Myconst1 = "world"
+	// fmt.Print(" ", Myconst1)
 
-
-	fmt.Println(b)
-	fmt.Printf("%T", b)
+	// the esspace character
+	fmt.Println("hello \bworld")
+	fmt.Print("          ")
+	fmt.Println("heelo\rworld") //\r
+	fmt.Println("\thelloworld")
 
 }

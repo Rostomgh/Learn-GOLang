@@ -5,18 +5,17 @@ import (
 )
 
 func main() {
-	var a int
-	var b int
-	fmt.Print("Enter a number: ")
-	fmt.Scanln(&b)
-	a = 14
+	var a int = 20
+	b := 14
 
-	if a > b {
+	switch a < b {
+	case true:
 		fmt.Println("a is greater")
-	} else if a < b {
+	case false:
 		fmt.Println("b is greater")
-	} else {
+	default:
 		fmt.Println("a and b are equal")
+
 	}
 
 }
